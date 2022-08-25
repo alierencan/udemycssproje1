@@ -77,3 +77,40 @@
 .main-item p{
     margin-top: 0.5rem;
 }
+.form-container{
+    background-image: url(https://source.unsplash.com/random/1020*1020);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-container h2{
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+    color: #da4167;
+}
+.form{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+.form input, .form textarea{
+    padding: 1rem;
+    width: 90%;
+    margin-bottom: 1rem;
+    border-radius: .6rem;
+    outline: none;
+    border: 1px solid #da4167;
+}
+.form button{
+    background-color: #da4167;
+    padding: 1rem;
+    margin-top: 1rem;
+    color: white;
+    font-size: 1.2rem;
+    width: 50%;
+    border: none;
+    cursor: pointer;
+}
