@@ -36,3 +36,27 @@
     cursor: pointer;
     color:deeppink;
 }
+.banner{
+    background-image: url(https://source.unsplash.com/random/1024*1024);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-text{
+    padding: 10px 0;
+}
+.banner-text-item{
+    width: 70%;
+    margin: auto;
+}
+.banner-text-item h2{
+    font-size: 3rem;
+    color: #3d5467;
+    margin-bottom: 1.2rem;
+    text-transform: uppercase;
+}
+.banner-text-item p {
+    font-size: 2rem;
+    color: #da4167;
+    line-height: 1.5;
+
+}
