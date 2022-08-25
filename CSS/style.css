@@ -60,3 +60,20 @@
     line-height: 1.5;
 
 }
+.main-content{
+    display: flex;
+    flex-direction: row;
+    padding: 2% 0px;
+}
+.main-item{
+    flex-grow: 1;
+    padding: 2%;
+    line-height: 1.5;
+    text-align: center;
+}
+.main-item h2{
+    color: #da4167;
+}
+.main-item p{
+    margin-top: 0.5rem;
+}
