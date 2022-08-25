@@ -92,7 +92,7 @@
     padding: 3rem;
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 60%;
     margin: auto;
     align-items: center;
 }
@@ -113,4 +113,28 @@
     width: 50%;
     border: none;
     cursor: pointer;
+}
+@media all and (max-width:600px){
+    .top-bar{
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu ul{
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .menu ul li{
+        padding: 5px;
+    }
+    .banner h2{
+        font-size: 2rem;
+    }
+    .banner-text-item p {
+        font-size: 1.5rem;
+        line-height: 1.2;
+    }
+    .main-content{
+        flex-direction: column;
+        padding: 2% 0px;
+    }
 }
